@@ -12,7 +12,7 @@ p = true;
 q = true;
 console.log("\nPrimera tabla de la verdad\n");
 console.log("---------------------------------")
-console.log("p    |  q   | NOT p| AND q \t");
+console.log("p    |  q   | NOT p| NOT p AND q \t");
 console.log(`${p} | ${q} | ${!p}| ${!p && q}`);
 p = true;
 q = false;
