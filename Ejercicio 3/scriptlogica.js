@@ -32,16 +32,16 @@ console.log("\nSegunda tabla de la verdad\n");
 
 p = true;
 q = true;
-console.log("---------------------------------")
-console.log("NOT p | NOT q | NOT p AND NOT q |\t");
-console.log(`${!p} | ${!q} |   ${!p && !q}         |`);
+console.log("-----------------------------------------------------")
+console.log("p    | q    | NOT p | NOT q | NOT p AND NOT q |\t");
+console.log(`${p} | ${q} | ${!p} | ${!q} |   ${!p && !q}         |`);
 p = true;
 q = false; 
-console.log(`${!p} | ${!q}  |   ${!p && !q}         |`);
+console.log(`${p} | ${q}| ${!p} | ${!q}  |   ${!p && !q}         |`);
 p = false;
 q = true;
-console.log(`${!p}  | ${!q} |   ${!p && !q}         |`);
+console.log(`${p}| ${q} | ${!p}  | ${!q} |   ${!p && !q}         |`);
 p = false;
 q = false;
-console.log(`${!p}  | ${!q}  |   ${!p && !q}          |`);
-console.log("---------------------------------")
+console.log(`${p}| ${q}| ${!p}  | ${!q}  |   ${!p && !q}          |`);
+console.log("-----------------------------------------------------")
